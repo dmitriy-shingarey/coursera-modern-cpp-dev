@@ -1,5 +1,5 @@
 # Specialization: The Art of Developing in Modern C++
-![](cpp_logo.jpg)
+![][def_logo]
 
 This repository contains materials and assignments on the specialization from Yandex and MIPT on Coursera "The Art of Development in Modern C++".
 
@@ -12,3 +12,6 @@ The specialization consists of 5 courses:
     5. C++ Development Essentials: Black Belt
 
 
+
+
+[def_logo]: cpp_logo.jpg
