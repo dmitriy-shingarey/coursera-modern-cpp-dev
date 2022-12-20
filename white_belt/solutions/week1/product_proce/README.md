@@ -1,4 +1,4 @@
-# calculate product price after discount  
+# Calculate product price after discount  
 
   Inputs:
       N, A, B, X, Y (A < B)
