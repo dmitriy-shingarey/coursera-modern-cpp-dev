@@ -5,10 +5,10 @@ This repository contains materials and assignments on the [specialization](https
 
 The specialization consists of 5 courses:
 
-    1. [C++ Development Essentials: white belt](White_Belt)
-    2. [C++ Development Essentials: yellow belt](Yellow_Belt)
-    3. [C++ Development Essentials: red belt](Red_Belt)
-    4. [C++ Development Essentials: brown belt](Brown_Belt)
+    1. [C++ Development Essentials: white belt](white_belt/)
+    2. [C++ Development Essentials: yellow belt](yellow_belt)
+    3. [C++ Development Essentials: red belt](red_belt)
+    4. [C++ Development Essentials: brown belt](brown_belt)
     5. C++ Development Essentials: black belt
 
 
