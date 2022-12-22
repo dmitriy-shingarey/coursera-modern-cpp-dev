@@ -7,7 +7,8 @@
 
 using namespace std;
 
-map<char, int> BuildCharCounters (const string & word){
+map<char, int> BuildCharCounters(const string &word)
+{
     map<char, int> counter;
     for (auto c : word)
     {
@@ -16,20 +17,22 @@ map<char, int> BuildCharCounters (const string & word){
     return counter;
 }
 
-int main() {
+int main()
+{
     int pair_number;
     string word1, word2;
     cout << "Enter number of pairs: ";
     cin >> pair_number;
     for (size_t i = 0; i < pair_number; i++)
     {
-        cout << "Enter word pair " << i+1 << " : ";
+        cout << "Enter word pair " << i + 1 << " : ";
         cin >> word1 >> word2;
-        if (BuildCharCounters(word1)==BuildCharCounters(word2))
+        if (BuildCharCounters(word1) == BuildCharCounters(word2))
         {
             cout << "YES" << endl;
         }
-        else {
+        else
+        {
             cout << "NO" << endl;
         }
     }
