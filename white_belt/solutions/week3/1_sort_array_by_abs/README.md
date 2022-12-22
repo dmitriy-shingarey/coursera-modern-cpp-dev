@@ -1,4 +1,4 @@
-# Programming Assignment: Sort integers by modulo
+# Programming Assignment: Sort integers by abs value
 
     In a standard stream there is one string consisting of N + 1 integers.
     The first number is N itself. Next comes another N numbers, let's denote

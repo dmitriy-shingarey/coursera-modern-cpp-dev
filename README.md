@@ -12,6 +12,6 @@ The specialization consists of 5 courses:
     4. [C++ Development Essentials: brown belt](brown_belt)  
     5. C++ Development Essentials: black belt  
 
-Moved from [Gitlab-repo1](https://gitlab.com/Shingarey/coursera_yandex_cpp) and [Gitlab-repo2](https://gitlab.com/Shingarey/yandex_cpp)
+White and Yellow Belt courses were moved from [Gitlab-repo1](https://gitlab.com/Shingarey/coursera_yandex_cpp) and [Gitlab-repo2](https://gitlab.com/Shingarey/yandex_cpp).
 
 [def_logo]: cpp_logo.jpg
