@@ -8,8 +8,8 @@ In the specialization, instructors share their years of experience in creating l
 The specialization consists of 5 courses:  
     1. [C++ Development Essentials: white belt](https://github.com/dmitriy-shingarey/coursera-modern-cpp-dev/tree/white_belt/white_belt)  
     2. [C++ Development Essentials: yellow belt](yellow_belt)  
-    3. [C++ Development Essentials: red belt](red_belt)  
-    4. [C++ Development Essentials: brown belt](brown_belt)  
+    3. C++ Development Essentials: red belt  
+    4. C++ Development Essentials: brown belt  
     5. C++ Development Essentials: black belt  
 
 White and Yellow Belt courses were moved from [Gitlab-repo1](https://gitlab.com/Shingarey/coursera_yandex_cpp) and [Gitlab-repo2](https://gitlab.com/Shingarey/yandex_cpp).
