@@ -1,24 +1,23 @@
 # Programming Assignment: LectureTitle Structure
 
-    This is the LectureTitle structure:
-    
-     struct LectureTitle {
+This is the LectureTitle structure:  
+
       string specialization;
       string course;
       string week;
      };
-    
-    Complete the constructor and structures Specialization, Course, Week,
+
+Complete the constructor and structures Specialization, Course, Week,
     so that the LectureTitle object can be created using the code:
-    
+
      LectureTitle title(
       Specialization("C++"),
       Course("White belt"),
       Week("4th")
      );
-    
-    but you couldn't with the following code snippets:
-    
+
+but you couldn't with the following code snippets:
+
      LectureTitle title("C++", "White belt", "4th");
     
      LectureTitle title(string("C++"), string("white belt"), string("4th"));
