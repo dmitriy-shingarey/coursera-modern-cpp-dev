@@ -41,7 +41,7 @@ template <typename T>
 void RemoveDuplicates(vector<T>& elements);
 ```
 
-## [Programming Assignment: Solving permutations]()
+## [Programming Assignment: Solving permutations](4_solving_permutations)
 
 Given a positive integer N not exceeding 9. Output all permutations of numbers from 1 to N in reverse lexicographical order (see example).
 
