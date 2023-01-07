@@ -1,6 +1,5 @@
 ﻿/*
-Дано целое положительное число N, не превышающее 9.
-Выведите все перестановки чисел от 1 до N в обратном лексикографическом порядке.
+Given a positive integer N not exceeding 9. Output all permutations of numbers from 1 to N in reverse lexicographical order.
 */
 
 #include <algorithm>
