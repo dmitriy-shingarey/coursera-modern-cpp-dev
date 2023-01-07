@@ -25,11 +25,11 @@ std::ostream &operator<<(std::ostream &os, const std::vector<int> &vec)
 void PrintPermutations(const int size)
 {
 	std::vector<int> v(size);
-	std::iota(v.begin(), v.end(), 1);
+	std::iota(v.rbegin(), v.rend(), 1);
 	do
 	{
 		std::cout << v;
-	} while (std::next_permutation(v.begin(), v.end()));
+	} while (std::prev_permutation(v.begin(), v.end()));
 }
 
 int main()
