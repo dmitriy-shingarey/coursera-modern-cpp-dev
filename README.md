@@ -15,7 +15,7 @@ Upon completing our specialization, students should be able to:
 
 The specialization consists of 5 courses:  
 
-## [1. C++ Development Essentials: white belt](https://github.com/dmitriy-shingarey/coursera-modern-cpp-dev/tree/white_belt/white_belt)
+## [1. C++ Development Essentials: white belt](white_belt)
 
 This course introduces the C++ programming language. You will learn how to utilize its fundamental structures, create custom data types, and organize your program into classes and functions. Upon completion of the course, you will have the skills to complete a final project: implementing a basic data warehouse with the ability to add, delete, and search data.  
 
