@@ -1,7 +1,6 @@
 # About  
 
-This course is about getting to know the C++ programming language. You will learn how to use its basic constructions, create your own data types, and divide the program into classes and functions.  
-At the end of the course you'll get a final project: you'll be able to implement a simple data warehouse with addition, deletion and search capabilities.
+This course introduces the C++ programming language. You will learn how to utilize its fundamental structures, create custom data types, and organize your program into classes and functions. Upon completion of the course, you will have the skills to complete a final project: implementing a basic data warehouse with the ability to add, delete, and search data.
 
 Moved from [Gitlab-repo1](https://gitlab.com/Shingarey/coursera_yandex_cpp) and [Gitlab-repo2](https://gitlab.com/Shingarey/yandex_cpp).
 
@@ -11,37 +10,37 @@ Moved from [Gitlab-repo1](https://gitlab.com/Shingarey/coursera_yandex_cpp) and 
 
 Learning Objectives:
 
-* Write your first C++ program.
-* Apply all the most common language constructions: input and output to standard streams, conditional statements, loops
-* Learn the basic data types of the C++ language
+* Write your first C++ program
+* Use common language constructs such as input/output to standard streams, conditional statements, and loops
+* Understand the basic data types of the C++ language
 
 ### [2. Techniques of using functions and containers](solutions/week2)
 
 Learning Objectives:
 
-* Apply functions in C++
-* Apply a vector container
-* Apply a map container
-* Apply a set container
+* Use functions in C++
+* Utilize the vector container
+* Utilize the map container
+* Utilize the set container
 
 ### [3. Meditation on Algorithms and Classes](solutions/week3)
 
 Learning Objectives:
 
-* Apply algorithms
-* Know the visibility and initialization of variables
-* Structures and classes
-* Method constancy
-* Constructors
+* Use algorithms
+* Understand the visibility and initialization of variables
+* Work with structures and classes
+* Use method constancy
+* Use constructors
 
 ### [4. I/O, exceptions, and operator overloading](solutions/week4)
 
 Learning Objectives:
 
-* Date structures
-* Function class
-* Text files and threads
-* Exceptions
+* Use data structures
+* Work with function classes
+* Read and write text files and threads
+* Use exceptions
 
 ### [5. First Kumite](solutions/week5_final_project)
 
