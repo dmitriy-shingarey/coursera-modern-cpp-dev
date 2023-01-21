@@ -181,7 +181,7 @@ void UpdateTicket(AirlineTicket& ticket, const map<string, string>& updates) {
 }
 ```
 
-Write ```UPDATE_FIELD``` macro. You are given the file ```airline_ticket.h```, which contains the declarations of the structures ```Time```, ```Date``` and ```AirlineTicket```, as well as a solution template as a cpp-file ```update_field.cpp```. Send me a cpp-file that
+Write ```UPDATE_FIELD``` macro. You are given the file ```airline_ticket.h```, which contains the declarations of the structures ```Time```, ```Date``` and ```AirlineTicket```, as well as a solution template as a cpp-file ```update_field.cpp```. Send a cpp-file that
 
 * includes in the ```airline_ticket.h``` header file
 * contains the ```UPDATE_FIELD``` macro
