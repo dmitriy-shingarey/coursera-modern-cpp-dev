@@ -186,3 +186,41 @@ Write ```UPDATE_FIELD``` macro. You are given the file ```airline_ticket.h```, w
 * includes in the ```airline_ticket.h``` header file
 * contains the ```UPDATE_FIELD``` macro
 * contains definitions of operators needed to read ```Date``` and ```Time``` classes from ```istream``` stream and use them in ```ASSERT_EQUAL``` macro (see ```update_field.cpp``` in unit-tests for input format)
+
+## [Programming task: Table](4_table)
+
+You need to write a template class ```Table``` for a spreadsheet. For simplicity, we will assume that all table cells have the same data type ```T```. The table should be able to change its size on user's demand. Newly created cells must be filled with default values of type ```T```.
+
+The requirements for the class are:
+
+1. The class must be named ```Table```.
+2. The class must have a template parameter ```T``` - the type of element in the cell.
+3. The class must have a ```constructor``` that receives two numbers of ```size_t``` type - the number of rows and columns, respectively.
+4. The class must have constant and non-constant versions of ```[]``` operator which returns something to which you can apply the ```[]``` operator again. That is, constructs of the form ```cout << table[i][j];``` and ```table[i][j] = value;``` must work. There is no need to check indexes correctness.
+5. The class must have ```Resize``` function that receives two parameters of ```size_t``` type and changes the table size. The old data that fit into the new size should be preserved.
+6. The class must have a constant ```Size``` method that returns ```pair<size_t, size_t>``` the size of the table (in the same order in which these arguments were passed to the constructor).
+
+## [Programming task: Deque based on 2 vectors](5_deque_on_vectors)
+
+### Problem Condition
+
+Write a ```Deque``` template class containing the following set of methods:
+
+* default constructor;
+* constant method ```Empty```, returning ```true``` if deque does not contain any element;
+* constant method ```Size```, which returns the number of elements in the deck;
+* ```T& operator[](size_t index)``` and ```const T& operator[](size_t index) const;```
+
+* ```const``` and ```non-const``` method ```At(size_t index)```, which generates the standard ```out_of_range``` exception if the index is greater than or equal to the number of elements in the deck;
+
+* ```const``` and ```non-const``` versions of the ```Front``` and ```Back``` methods that return references to the first and last element of the deque, respectively;
+
+* ```PushFront``` and ```PushBack``` methods.
+
+The ```non-const``` versions of the methods must allow the corresponding deque element to be modified.
+
+For implementation, create two vectors inside the ```Deque``` class: insert into one in the ```PushFront``` method, and in the other - in the ```PushBack``` method.
+
+### Comment
+
+The header file that you send for review must not include the ```<list>, <deque>, <set>, <map>``` files. If you have one of these files included, you will get a compilation error.
