@@ -224,3 +224,43 @@ For implementation, create two vectors inside the ```Deque``` class: insert into
 ### Comment
 
 The header file that you send for review must not include the ```<list>, <deque>, <set>, <map>``` files. If you have one of these files included, you will get a compilation error.
+
+## [Programming assignment: Paginator template](6_pagination)
+
+### Condition
+
+In the lecture, we developed a ```Head``` function that allows us to loop through the beginning of a container. In this assignment, we take it one step further and develop a ```Paginator``` pattern that breaks up the contents of a container into multiple pages. A classic example where this might come in handy in practice is in the distribution of a list of mobile apps across phone screens. Let's say we have a vector of all apps on our phone and we can place 20 app icons on one screen. Then we can distribute the applications on the screens with this code:
+
+```cpp
+vector<vector<Application>> DistributeAmongScreens(const vector<Application>& apps) {
+  vector<vector<Application>> result;
+  for (const auto& page : Paginate(apps, 20)) {
+    result.push_back({page.begin(), page.end()})
+  }
+  // result[0] - all the apps which get to the first screen,
+  // result[1] - all the applications on the second screen, etc.
+  return result;
+}
+```
+
+Notice our code is short and elegant. We didn't have to write any special code to handle the last screen, which might contain fewer than 20 applications.
+
+So, develop a template class ```Paginator``` with the following properties:
+
+* it has one template parameter - the iterator type
+* the constructor of the ```Paginator<Iterator>``` class takes three parameters:
+  
+  1. Iterator ```begin```
+  2. Iterator ```end``` - the pair of begin and end iterators defines a half-interval [begin; end] which we will cut into pages
+  3. ```size_t page_size``` - size of one page
+
+* one can iterate with a range-based for loop over objects of the class ```Paginator<Iterator>```
+* class ```Paginator<Iterator>``` has a method ```size_t size() const```, which returns the number of pages into which the passed container is divided
+* The pages themselves must also iterate through a range-based for loop, and have a ```size_t size() const``` method which returns the number of objects in the page
+* for detailed examples of use, see the unit tests in the solution template
+  
+Also develop a ```Paginate``` function template that takes a reference to a container and a page size, and returns an object of class ```Paginator<It>```:
+
+```cpp
+template <typename C> ??? Paginate(C& c, size_t page_size)
+```
