@@ -23,12 +23,7 @@ template <typename Type, typename Hasher>
 bool HashSet<Type, Hasher>::Has(const Type &value) const
 {
     auto index = GetIndex(value);
-    auto it = std::find(data_[index].begin(), data_[index].end(), value);
-    if (it != data_[index].end())
-    {
-        return true;
-    }
-    return false;
+    return {std::find(data_[index].begin(), data_[index].end(), value) != data_[index].end()};
 };
 
 template <typename Type, typename Hasher>
