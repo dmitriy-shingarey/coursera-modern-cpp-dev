@@ -48,7 +48,7 @@ This course builds upon the "Fundamentals of C++ Development: The Yellow Belt" c
 
 In addition, the course demonstrates how to create your own profiler using White, Yellow, and Red Belt knowledge. As with previous courses, a final project awaits you at the end. In this case, you will be tasked with creating your own search engine.
 
-## 4. C++ Development Essentials: brown belt  
+## [4. C++ Development Essentials: brown belt](brown_belt)
 
 The primary focus of this course is to teach C++ idioms, or how to utilize the language's various features to create efficient, reliable, and easy-to-maintain blocks of code. When paired with the knowledge gained from the Red Belt course, this will enable you to not only write efficient programs, but also maintainable ones. We will also cover topics that were not covered in previous courses, including namespaces and effective use of associative containers.
 
